@@ -3,3 +3,11 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
+- calico
+- metrics-server
+- monitoring
+- flux-testpod.yaml
+- network-policy.yaml
+- source-pod.yaml
+- target-pod.yaml
+- target-service.yaml
