@@ -1,0 +1,12 @@
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: allow-from-source-pod
+  namespace: target-namespace
+spec:
+  podSelector:
+    matchLabels:
+      name: target-pod
+  policyTypes:
+  - Ingress
+  ingress: []
