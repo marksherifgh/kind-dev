@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: flux-test-pod-1
+  name: flux-test-pod-2
   namespace: target-namespace
   labels:
     name: flux-test-pod
